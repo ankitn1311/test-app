@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  assetPrefix: "", // Remove assetPrefix
+  trailingSlash: true,
+};
 
 export default nextConfig;
